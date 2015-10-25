@@ -77,4 +77,4 @@ names(DataSet)<-gsub("std", "StandardDeviation", names(DataSet))
 
 tidyDataSet <- aggregate(. ~subjectId + activity, DataSet, mean)
 
-write.table(tidyDataSet,file ="tidydata.txt",row.names = FALSE)
+write.table(tidyDataSet,file ="tidydataset.txt",row.names = FALSE)
