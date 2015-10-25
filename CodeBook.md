@@ -39,6 +39,9 @@ activity:  This is a number from 1 to 6 to represent each activity
 5. STANDING
 6. LAYING
 
+
+The following variables all values calculated for mean and standard deviation and also for X,Y and Z directions.
+
 TimeBodyAcceleration:
 
 TimeGravityAcceleration:
@@ -62,6 +65,8 @@ FrequencyBodyAcceleration:
 FrequencyBodyAccelerationJerk:
 
 FrequencyBodyGyro:
+
+The following variables just have values mean and standard deviation calculated.
 
 FrequencyBodyAccelerationMagnitude:
 
