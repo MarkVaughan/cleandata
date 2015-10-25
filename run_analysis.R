@@ -72,3 +72,9 @@ names(DataSet)<-gsub("Acc", "Acceleration", names(DataSet))
 names(DataSet)<-gsub("Mag", "Magnitude", names(DataSet))
 names(DataSet)<-gsub("mean", "Mean", names(DataSet))
 names(DataSet)<-gsub("std", "StandardDeviation", names(DataSet))
+
+# 5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
+
+tidyDataSet <- aggregate(. ~subjectId + activity, DataSet, mean)
+
+write.table(tidyDataSet,file ="tidydata.txt",row.names = FALSE)
