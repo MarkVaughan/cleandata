@@ -22,32 +22,54 @@ This involved an experiment with a group of 30 volunteers which monitored their 
 ###Cleaning of the data
 The script is described in the README.md file located here: https://github.com/MarkVaughan/cleandata/blob/master/README.md
 
-##Description of the variables in the tiny_data.txt file
-General description of the file including:
- - Dimensions of the dataset
- - Summary of the data
- - Variables present in the dataset
+##Description of the variables in the tinydataset.txt file
 
-(you can easily use Rcode for this, just load the dataset and provide the information directly form the tidy data file)
+The tinydataset.txt contains 180 rows and 68 columns
 
-###Variable 1 (repeat this section for all variables in the dataset)
-Short description of what the variable describes.
+It Contains the following variables:
 
-Some information on the variable including:
- - Class of the variable
- - Unique values/levels of the variable
- - Unit of measurement (if no unit of measurement list this as well)
- - In case names follow some schema, describe how entries were constructed (for example time-body-gyroscope-z has 4 levels of descriptors. Describe these 4 levels). 
+subjectId: This is an number used to represent each of the particpants in the experiment i.e. 1-30
 
-(you can easily use Rcode for this, just load the dataset and provide the information directly form the tidy data file)
+activity:  This is a number from 1 to 6 to represent each activity
 
-####Notes on variable 1:
-If available, some additional notes on the variable not covered elsewehere. If no notes are present leave this section out.
+1. WALKING
+2. WALKING_UPSTAIRS
+3. WALKING_DOWNSTAIRS
+4. SITTING
+5. STANDING
+6. LAYING
 
-##Sources
-Sources you used if any, otherise leave out.
+TimeBodyAcceleration:
 
-##Annex
-If you used any code in the codebook that had the echo=FALSE attribute post this here (make sure you set the results parameter to 'hide' as you do not want the results to show again)
+TimeGravityAcceleration:
+
+TimeBodyAccelerationJerk:
+
+TimeBodyGyro:
+
+TimeBodyGyroJerk:
+
+TimeBodyAccelerationMagnitude:
+
+TimeBodyAccelerationJerkMagnitude:
+
+TimeBodyGyroMagnitude:
+
+TimeBodyGyroJerkMagnitude:
+
+FrequencyBodyAcceleration:
+
+FrequencyBodyAccelerationJerk:
+
+FrequencyBodyGyro:
+
+FrequencyBodyAccelerationMagnitude:
+
+FrequencyBodyBodyAccelerationJerkMagnitude:
+
+FrequencyBodyBodyGyroMagnitude:
+
+FrequencyBodyBodyGyroJerkMagnitude:
+
 
 
